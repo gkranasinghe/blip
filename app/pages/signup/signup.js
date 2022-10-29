@@ -294,7 +294,7 @@ export let Signup = translate()(class extends React.Component {
     let clinicanClass = 'signup-selection' + (this.state.selected === 'clinician' ? ' selected' : '');
     return (
       <div className="signup-container container-small-outer">
-        <div className="signup-title">{t('Sign Up for Tidepool')}</div>
+        <div className="signup-title">{t('Sign Up for Exadoctor')}</div>
         <div className="signup-subtitle">{t('Which kind of account do you need?')}</div>
         <div className={personalClass} onClick={_.partial(this.handleSelectionClick, 'personal')}>
           <div className="signup-selectionHeader">
